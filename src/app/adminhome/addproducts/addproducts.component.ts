@@ -112,4 +112,7 @@ onFileChange(){
       reader.readAsDataURL(file);
     };
   }
+  homei(){
+    this.router.navigateByUrl('/emphome');
+  }
 }

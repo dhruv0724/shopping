@@ -15,6 +15,7 @@ import { ViewproductComponent } from './adminhome/viewproduct/viewproduct.compon
 import { IndexComponent } from './adminhome/index/index.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { AccountComponent } from './emphome/account/account.component';
+import { HelpdeskComponent } from './helpdesk/helpdesk.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AccountComponent } from './emphome/account/account.component';
     IndexComponent,
     CheckoutComponent,
     AccountComponent,
-    ViewproductComponent
+    ViewproductComponent,
+    HelpdeskComponent
     
 
   ],

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { CommonserviceService } from './commonservice.service';
 import { Employee } from './models/Employee';
 
 @Component({
@@ -12,7 +13,7 @@ export class AppComponent {
   isLogin = false;
   isAdmin = true;
   employee : Employee;
-  constructor(private route : Router){
+  constructor(private route : Router ,private commonService:CommonserviceService){
     if(localStorage.getItem('currentUser')){
       this.isLogin = true;
     }else{
